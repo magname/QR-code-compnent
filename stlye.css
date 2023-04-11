@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&family=Outfit:wght@400;700&display=swap');
+
+:root{
+--White: hsl(0, 0%, 100%);
+--light-gray: hsl(212, 45%, 89%);
+--Grayish-blue: hsl(220, 15%, 55%);
+--Dark-blue: hsl(218, 44%, 22%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-family: "outfit" ,sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 390px;
+    background-color: white;
+    padding: 1.2rem;
+    padding-bottom: 35px;
+    border: 0.5rem;
+    border-radius: 1.8rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+          
+}
+.description{
+    margin: 2px;
+    text-align: center;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    width: 265px;
+}
+.heading{
+    margin: 20px;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+}
+img{
+    max-width: 100%;
+    border-radius: 0.7rem;
+}
+
+
+.attribution {
+    font-size: 11px; text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
